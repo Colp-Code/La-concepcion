@@ -1,0 +1,78 @@
+:root{
+    --color-primario:#561c23;
+}
+
+html{
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;   
+    color: white;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    padding: 0.5rem;
+    background-color: var(--color-primario);
+    cursor: pointer;
+    user-select: none;
+    width: max-content;
+}
+
+.nav{
+    height: 60px;
+}
+
+.nav img{
+    height: 100%;
+    width: auto;
+}
+.button{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    background-color: var(--color-primario);
+    height: 100%;
+}
+.botton-menu{
+    position: absolute;
+    width: 200px;
+    left:-200px;
+    transition: .1s;
+    background-color: var(--color-primario);
+    top: 60px;
+    height: calc(100vh - 60px);
+}
+
+.b1{
+    display: flex;
+    flex-direction: column;  
+    height: 150px;  
+}
+
+.pol{
+    cursor: pointer;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:1.5rem;
+}
+
+.mostrar{
+    position: absolute;
+    left: 0px;
+}
+
+.portada{
+    background-image: url(https://i.ibb.co/9pqWkGm/302282261-486986236774789-3306108877845204395-n.jpg);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
